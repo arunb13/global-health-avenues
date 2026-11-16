@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>For Healthcare Institutions | Global Health Avenues</title>
+<meta name="description" content="Partner with Global Health Avenues to explore international medical education, physician observerships and customised clinical training programmes.">
+<style>
+:root {
+  --green: #075e53;
+  --dark: #123d38;
+  --gold: #cba66a;
+  --ivory: #f4f7f5;
+  --text: #25423e;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  line-height: 1.7;
+}
+header {
+  min-height: 76px;
+  padding: 12px 6.8%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  gap: 24px;
+}
+.logo { color: var(--green); font-size: 26px; font-weight: 800; line-height: 1.1; }
+.logo small {
+  display: block;
+  margin-top: 7px;
+  color: #687e79;
+  font-size: 10px;
+  letter-spacing: 2px;
+}
+nav { display: flex; align-items: center; gap: 26px; flex-wrap: wrap; }
+nav a {
+  color: #173b36;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+nav a:hover { color: var(--gold); }
+nav .nav-cta {
+  background: var(--green);
+  color: white;
+  padding: 11px 20px;
+  border-radius: 5px;
+}
+.hero {
+  min-height: 570px;
+  padding: 100px 6.8%;
+  display: flex;
+  align-items: center;
+  color: white;
+  background:
+    linear-gradient(90deg, rgba(8,48,43,.94), rgba(8,48,43,.65)),
+    url("https://images.unsplash.com/photo-1576091160399-112ba8d25d1d") center/cover;
+  background-color: var(--dark);
+}
+.hero-content { max-width: 760px; }
+.eyebrow {
+  color: var(--gold);
+  font-size: 13px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+h1 { font-size: clamp(38px, 5vw, 58px); line-height: 1.12; margin: 18px 0; }
+.hero p { max-width: 690px; font-size: 18px; color: #e5efec; }
+.actions { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; }
+.btn {
+  display: inline-block;
+  padding: 13px 22px;
+  border-radius: 5px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.btn-gold { background: var(--gold); color: #173b36; }
+.btn-outline { border: 1px solid white; color: white; }
+section { padding: 78px 8%; }
+.section-heading { max-width: 760px; margin: 0 auto 42px; text-align: center; }
+.section-heading h2 { font-size: 32px; line-height: 1.25; color: var(--dark); }
+.section-heading p { color: #60736e; }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 22px;
+}
+.card {
+  padding: 30px;
+  background: white;
+  border: 1px solid #e3eae6;
+  border-radius: 9px;
+}
+.card h3 { color: var(--green); font-size: 21px; line-height: 1.3; }
+.card p { color: #62736f; }
+.icon { font-size: 28px; }
+.soft { background: var(--ivory); }
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 55px;
+  align-items: center;
+}
+.split h2 { color: var(--dark); font-size: 32px; line-height: 1.25; }
+.split p { color: #60736e; }
+.feature-list { padding-left: 20px; }
+.feature-list li { margin: 12px 0; }
+.steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.step {
+  padding: 24px;
+  border-top: 3px solid var(--gold);
+  background: white;
+}
+.step strong { color: var(--green); font-size: 18px; }
+.note {
+  padding: 20px 24px;
+  background: #eaf1ed;
+  border-left: 4px solid var(--gold);
+  border-radius: 4px;
+  color: #435d56;
+}
+.contact {
+  background: var(--dark);
+  color: white;
+  text-align: center;
+}
+.contact h2 { font-size: 34px; }
+.contact p { color: #dce8e3; max-width: 700px; margin: 0 auto; }
+.contact a.email { color: var(--gold); font-weight: 700; }
+footer {
+  padding: 28px 8%;
+  background: #092f2b;
+  color: #d4e0dc;
+  font-size: 13px;
+  text-align: center;
+}
+@media(max-width: 850px) {
+  header { align-items: flex-start; flex-direction: column; }
+  nav { gap: 14px; }
+  .cards { grid-template-columns: 1fr; }
+  .split { grid-template-columns: 1fr; gap: 25px; }
+  .steps { grid-template-columns: 1fr 1fr; }
+  .hero { min-height: 500px; padding-top: 75px; padding-bottom: 75px; }
+}
+@media(max-width: 520px) {
+  nav { gap: 12px; }
+  nav a { font-size: 12px; }
+  .steps { grid-template-columns: 1fr; }
+  section { padding: 58px 7%; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a href="index.html" style="text-decoration:none">
+    <div class="logo">GHA<small>GLOBAL HEALTH AVENUES</small></div>
+  </a>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="physicians.html">For Physicians</a>
+    <a href="#programmes">Programmes</a>
+    <a href="#approach">Our Approach</a>
+    <a class="nav-cta" href="#contact">Partner With Us</a>
+  </nav>
+</header>
+
+<main>
+<section class="hero">
+  <div class="hero-content">
+    <div class="eyebrow">For Healthcare Institutions</div>
+    <h1>Building Global Connections in Medical Education.</h1>
+    <p>
+      We work with hospitals and healthcare institutions to explore
+      international clinical observerships, supervised training
+      opportunities and customised medical education programmes.
+    </p>
+    <div class="actions">
+      <a class="btn btn-gold" href="#contact">Explore an Institutional Partnership</a>
+      <a class="btn btn-outline" href="#programmes">Discover Our Approach</a>
+    </div>
+  </div>
+</section>
+
+<section id="programmes">
+  <div class="section-heading">
+    <div class="eyebrow">Institutional Opportunities</div>
+    <h2>Creating Meaningful Clinical Learning Opportunities</h2>
+    <p>
+      We aim to facilitate structured learning experiences that connect
+      healthcare institutions with physicians seeking international
+      professional development.
+    </p>
+  </div>
+  <div class="cards">
+    <article class="card">
+      <div class="icon">🏥</div>
+      <h3>Clinical Observerships</h3>
+      <p>
+        Explore opportunities for international physicians to observe
+        clinical practice, departmental workflows and multidisciplinary
+        approaches within a host institution.
+      </p>
+    </article>
+    <article class="card">
+      <div class="icon">🎓</div>
+      <h3>Supervised Clinical Training</h3>
+      <p>
+        Explore structured, supervised training opportunities where the
+        host institution has approved the learning activities, supervision
+        arrangements and applicable clinical permissions.
+      </p>
+    </article>
+    <article class="card">
+      <div class="icon">🌍</div>
+      <h3>Customised Institutional Programmes</h3>
+      <p>
+        Discuss tailored programmes for groups of physicians, departments
+        or institutional cohorts, aligned with defined educational
+        objectives and host capacity.
+      </p>
+    </article>
+  </div>
+</section>
+
+<section class="soft" id="approach">
+  <div class="split">
+    <div>
+      <div class="eyebrow">How We Work</div>
+      <h2>A Coordinated Approach to International Medical Education</h2>
+      <p>
+        Global Health Avenues acts as a facilitation and coordination
+        partner, helping connect physician learning objectives with
+        institutional education opportunities.
+      </p>
+      <ul class="feature-list">
+        <li>Understand the institution's educational priorities and capacity.</li>
+        <li>Identify suitable programme formats and specialty areas.</li>
+        <li>Coordinate communication and participant requirements.</li>
+        <li>Support programme planning and pre-arrival coordination.</li>
+      </ul>
+    </div>
+    <div>
+      <div class="note">
+        <strong>Institution-led clinical governance</strong>
+        <p>
+          Host institutions retain responsibility for participant
+          acceptance, clinical oversight, supervision, credentialing,
+          permitted activities and applicable regulatory requirements.
+          GHA does not independently grant clinical access or practice
+          privileges.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="section-heading">
+    <div class="eyebrow">A Clear Process</div>
+    <h2>From Initial Discussion to Programme Planning</h2>
+    <p>
+      Each opportunity is explored in consultation with the relevant
+      institution and is subject to feasibility and approval.
+    </p>
+  </div>
+  <div class="steps">
+    <div class="step">
+      <strong>01 — Connect</strong>
+      <p>Discuss institutional interests, capabilities and potential areas of collaboration.</p>
+    </div>
+    <div class="step">
+      <strong>02 — Define</strong>
+      <p>Establish specialty, learning objectives, participant profile and programme format.</p>
+    </div>
+    <div class="step">
+      <strong>03 — Assess</strong>
+      <p>Review institutional capacity, approvals, supervision and regulatory requirements.</p>
+    </div>
+    <div class="step">
+      <strong>04 — Coordinate</strong>
+      <p>Where approved, coordinate participant preparation and programme arrangements.</p>
+    </div>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="section-heading">
+    <div class="eyebrow">Areas of Interest</div>
+    <h2>Supporting Learning Across Medical Specialties</h2>
+    <p>
+      We welcome discussions across a range of clinical disciplines,
+      depending on institutional expertise, availability and programme
+      suitability.
+    </p>
+  </div>
+  <div class="cards">
+    <article class="card"><h3>Medical Specialties</h3><p>Internal medicine, cardiology, oncology and related disciplines.</p></article>
+    <article class="card"><h3>Surgical Specialties</h3><p>General surgery, orthopaedics and other surgical disciplines.</p></article>
+    <article class="card"><h3>Other Clinical Areas</h3><p>Neurology, paediatrics, critical care and diagnostic medicine.</p></article>
+  </div>
+</section>
+
+<section class="contact" id="contact">
+  <div class="eyebrow">Start a Conversation</div>
+  <h2>Explore an Institutional Collaboration</h2>
+  <p>
+    If your hospital or healthcare institution is interested in exploring
+    international medical education opportunities, we would welcome an
+    initial discussion about your priorities and potential areas of
+    collaboration.
+  </p>
+  <div class="actions" style="justify-content:center">
+    <a class="btn btn-gold" href="mailto:globalhealthavenues@gmail.com?subject=Institutional%20Enquiry%20-%20GHA">Contact Global Health Avenues</a>
+  </div>
+  <p style="margin-top:18px">
+    <a class="email" href="mailto:globalhealthavenues@gmail.com">globalhealthavenues@gmail.com</a>
+  </p>
+</section>
+</main>
+
+<footer>
+  <strong>GHA — Global Health Avenues</strong>
+  <p>Advancing Healthcare Through Global Medical Education</p>
+  <p>All programmes are subject to host institution approval, availability and applicable regulatory requirements.</p>
+  <p>© 2026 Global Health Avenues. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
